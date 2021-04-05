@@ -1,5 +1,5 @@
 body {
-  background: rgb(143, 139, 139);
+  background: rgb(137, 140, 150);
 }
 
 h1 {
@@ -11,7 +11,6 @@ h1 {
 h2 {
   color: rgb(255, 255, 255);
   margin-bottom: 0;
-
   text-align: center;
 }
 
@@ -126,6 +125,10 @@ input[type="submit" i]:hover {
   text-align: center;
 }
 
+#weeklyForecast {
+  padding-bottom: 10px;
+}
+
 #searchedCity {
   color: white;
   text-align: center;
@@ -133,7 +136,7 @@ input[type="submit" i]:hover {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
-  margin-left: 20px;
+  padding-top: 10px;
 }
 
 #tempNow {
@@ -142,11 +145,18 @@ input[type="submit" i]:hover {
   font-size: 75px;
   font-weight: 500;
   line-height: 1.2;
-  margin-left: 20px;
 }
 
 .gitHubLink {
+  width: 35%;
   display: block;
   margin: 0 auto;
-  width: 35%;
+}
+
+.gitHubLink p {
+  text-align: left;
+}
+
+p:first-letter {
+  text-transform: capitalize;
 }
