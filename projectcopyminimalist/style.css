@@ -40,6 +40,8 @@ a:hover {
 .row {
   display: flex;
   flex-wrap: nowrap;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #currentLocation {
