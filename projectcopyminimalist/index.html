@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0872a4e3dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="searchBar">
+            <form id="search-form">
+                <input type="text" placeholder="Enter a city" id="searched-input" />
+                <input type="submit" value="Search" />
+                <button type="button" id="currentLocation">Current Location</button>
+            </form>
+        </div>
+
+        <div class="content">
+                    
+                    <div class id="searchedCity">
+                        <h2>New York</h2>
+                    </div>
+            
+                    <div class id="tempNow">
+                        <h1>17&#8451</h1>
+                    </div>
+                    <p><span class id="description">Cloudy</span></p>
+                
+                    <div class="buttonbox">
+                        <button id="tempButtonF">&#8457</button>
+                        <button id="tempButtonC">&#8451</button>
+                
+                </div>
+                <div class="lowerBox">
+
+        <div class="forecast">
+<div class="row">
+    <p>
+        <div class="col"><span class id="currentDate">Sunday 19:52</span></div>
+        <div class="col">Wind <span class id="currentWind">2</span>km/h</div>
+        <div class="col">Percipitation <span class id="currentHumidity">94</span>%</div>
+    </p></div><hr>
+        <div class="weather-forecast" id="weeklyForecast">
+        </div>
+
+        </div>
+
+    </div></div></div>
+    <div class="gitHubLink"><p><a href="https://github.com/sagagronqvist/shecodes-project">Coded</a> by Saga Grönqvist</p></div>
+    </div><script src="./script.js"></script>
+</body>
+
+</html>
